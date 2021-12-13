@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(247, 247, 247);   
+}
+
+.box:hover{
+    background: rgb(255, 81, 0);
+}
