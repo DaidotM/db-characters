@@ -8,20 +8,3 @@ h1{
   color: white;
 }
 
-.container{
-  margin: 30px;
-  border: white 2px solid;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-#Goku{
-  width: 200px;
-}
-
-#Vegeta{
-  width: 180px;
-}

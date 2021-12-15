@@ -8,5 +8,10 @@
 }
 
 .box:hover{
-    background: rgb(255, 81, 0);
+    background: rgb(255, 136, 0);
+}
+
+.box img{
+    padding-top: 10px;
+    width: 180px;
 }
