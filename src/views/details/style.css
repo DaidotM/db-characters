@@ -1,0 +1,23 @@
+.boxDetails{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border: white 2px solid;
+    color: white;
+}
+
+.boxDetails img{
+    margin: 20px;
+    width: 80%;
+}
+
+.nameRace{
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.description{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}

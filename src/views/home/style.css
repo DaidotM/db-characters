@@ -8,6 +8,7 @@
   flex-wrap: wrap;
 }
   
-.quantity{
+.container span,
+.quantity {
   color: white;
 }

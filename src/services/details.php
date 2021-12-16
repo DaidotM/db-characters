@@ -23,11 +23,14 @@ header('Content-Type: application/json');
     $sql = "select * from chars where id ={$id}";
     $result = $conn->query($sql);
     
-    
-    if($row = mysqli_fetch_assoc($result)){
-        $obj = $row;
-    }
-    
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            $obj = $row;
+        }
+      } else {
+        $obj = "Character not found";
+      }
  
     echo json_encode($obj);
 ?>

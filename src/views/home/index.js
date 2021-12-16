@@ -27,15 +27,13 @@ export default class Home extends Component {
                 <div className='container'>
                     {
                         chars.map(character =>
-                            <Link to={`/details/${character.id}`} style={{ textDecoration: 'none' }} key={character.id}>
-                                <Box>
-                                    <article>
-                                        <img src={character.img} alt={character.name} /> <br />
-                                        Name: {character.name} <br />
-                                        Race: {character.race} <br />
-                                    </article>
-                                </Box>
-                            </Link>
+                            <Box key={character.id}>
+                                <Link to={`/details/${character.id}`} style={{ textDecoration: 'none' }}>
+                                    <img src={character.img} alt={character.name} /> <br />
+                                    <span>Name: {character.name}</span> <br />
+                                    <span>Race: {character.race}</span> <br />
+                                </Link>
+                            </Box>
                         )
                     }
                 </div>

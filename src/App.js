@@ -5,7 +5,6 @@ import Routes from './routes';
 function App() {
   return (
     <div className="App">
-      <h1>Some Characters from Dragon Ball</h1>
       <BrowserRouter>
         <Routes />
       </BrowserRouter>
