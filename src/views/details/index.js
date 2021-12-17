@@ -17,9 +17,7 @@ export default function Details() {
     }, []);
 
     return (
-        //maybe put different image in details
-        //and a return to home
-        <div className="boxDetails">
+        <div className="boxDetails" key={char?.id}>
 
             <p className="nameRace">
                 {char?.name} - {char?.race} <br />

@@ -1,3 +1,8 @@
-## Just Trying a new thing
+## An Application With Characters of Dragon Ball
 
-:D
+Using React, PHP and MySQL.
+
+### Getting Characters from a db with php and showing details about them.
+
+* *just some characters to training my skills with React.js*
+![alt tag](/src/imgs/db-characters.jpg)
